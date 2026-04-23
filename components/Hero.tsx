@@ -9,12 +9,12 @@ export function Hero() {
             Для стоматологий 1-5 врачей
           </p>
           <h1 className="text-3xl font-bold leading-tight text-slate-900 sm:text-4xl lg:text-5xl">
-            Перестаньте терять пациентов из-за пропущенных обращений
+            Стоматологии теряют 80 000-250 000 ₽ в месяц из-за необработанных обращений
           </h1>
           <p className="max-w-xl text-base leading-relaxed text-slate-600 sm:text-lg">
-            Мы быстро и стабильно обрабатываем входящие звонки, сообщения и
-            заявки, чтобы клиника получала больше записей без перегрузки
-            администраторов.
+            Мы берем на себя обработку входящих звонков, сообщений и заявок:
+            быстро связываемся с пациентом и передаем вам готовый контакт для
+            записи, чтобы не терять деньги на каждом пропуске.
           </p>
           <a
             href={TELEGRAM_URL}
@@ -22,7 +22,7 @@ export function Hero() {
             rel="noopener noreferrer"
             className="inline-flex rounded-full bg-slate-900 px-6 py-3 text-sm font-semibold text-white transition hover:bg-slate-700 sm:text-base"
           >
-            Написать в Telegram
+            Проверить в Telegram, теряете ли вы пациентов
           </a>
         </div>
 
