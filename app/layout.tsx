@@ -16,6 +16,11 @@ export const metadata: Metadata = {
   title: "DentalFlow - больше записей в стоматологию",
   description:
     "Сервис, который помогает стоматологиям не терять пациентов и быстро обрабатывать входящие обращения.",
+  icons: {
+    icon: "/dentalflow-logo.png",
+    shortcut: "/dentalflow-logo.png",
+    apple: "/dentalflow-logo.png",
+  },
 };
 
 export default function RootLayout({
